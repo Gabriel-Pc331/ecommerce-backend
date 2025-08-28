@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { Repository } from "typeorm";
 import { Brand } from "./brand.entity";
 import { InjectRepository } from "@nestjs/typeorm";

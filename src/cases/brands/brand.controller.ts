@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import { BrandService } from "./brand.service";
 import { Brand } from "./brand.entity";
 import { Body, Controller, Delete, Get, HttpCode, HttpException, HttpStatus, Param, ParseUUIDPipe, Post, Put } from "@nestjs/common";
