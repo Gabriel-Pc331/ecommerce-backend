@@ -1,5 +1,5 @@
-import { StateService } from "./state.service";
-import { State } from "./state.entity";
+import { StateService } from "../services/state.service";
+import { State } from "../entities/state.entity";
 import { Body, Controller, Delete, Get, HttpCode, HttpException, HttpStatus, Param, ParseUUIDPipe, Post, Put } from "@nestjs/common";
 
 @Controller('states')

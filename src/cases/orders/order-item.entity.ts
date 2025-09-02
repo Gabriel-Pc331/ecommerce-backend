@@ -1,4 +1,4 @@
-import { Costumer } from "src/cases/costumer/costumer.entity";
+import { Costumer } from "src/cases/customer/customer.entity";
 import { Product } from "src/cases/products/product.entity";
 import { Column, CreateDateColumn, Entity, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { Order } from "./order.entity";

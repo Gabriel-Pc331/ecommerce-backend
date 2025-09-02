@@ -1,8 +1,8 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
-@Entity('city')
-export class City {
-    @PrimaryGeneratedColumn('uuid')
+@Entity('state')
+export class State {
+    @PrimaryGeneratedColumn("uuid")
     id: string;
 
     @Column({ length: 60, nullable: false })
@@ -10,4 +10,7 @@ export class City {
 
     @Column({ length: 2, nullable: false })
     ibge: string;
+
+    @Column({ length: 2, nullable: false })
+    acronym: string;
 }

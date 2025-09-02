@@ -1,5 +1,5 @@
-import { CostumerService } from "./costumer.service";
-import { Costumer } from "./costumer.entity";
+import { CostumerService } from "./customer.service";
+import { Costumer } from "./customer.entity";
 import { Body, Controller, Delete, Get, HttpCode, HttpException, HttpStatus, Param, ParseUUIDPipe, Post, Put } from "@nestjs/common";
 
 @Controller('costumers')

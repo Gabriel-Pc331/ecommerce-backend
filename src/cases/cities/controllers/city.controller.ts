@@ -1,5 +1,5 @@
-import { CityService } from "./city.service";
-import { City } from "./city.entity";
+import { CityService } from "../services/city.service";
+import { City } from "../entities/city.entity";
 import { Body, Controller, Delete, Get, HttpCode, HttpException, HttpStatus, Param, ParseUUIDPipe, Post, Put } from "@nestjs/common";
 
 @Controller('cities')
