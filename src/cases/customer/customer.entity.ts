@@ -17,4 +17,4 @@ export class Costumer {
 
     @ManyToOne(() => City, { eager: true, nullable: false })
     city: City;
-}
+  }
